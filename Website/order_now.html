@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles/order now-styles.css">
+        
+	</head>
+
+    <body>
+        <h1>
+			<div class = "new">
+                <a href="logout.php">Log out </a>
+                <a href = "register.php">Register</a>  
+                <a href = "login.php" div class="loginbox">Log in</a>
+                <a href="readCustomer.php">User details</a>
+            </div>
+        </h1>
+        <h2>
+            <b>FABRICS TEXTILE AND GARMENTS</b>
+			<img src = "fabricsLogo.jpg" alt="Logo"  style="height:25%; width:10%; float:left; position: relative;top: -20%px; bottom:100%;"></a>
+            <a  href = "login.php"><img src = "log.png" alt="Logo" align="middle"  height = "25%" width ="10%" style = float:right></a>
+			
+        </h2>
+        
+        <hr>               
+            <div class = "navbar">
+                <a class ="active" href ="home.php">Home</a>
+               
+                <a href = "order_now.html">Order now</a>
+                <a  href = "EdidSupNew.html">Suppliers</a>
+				<a  href = "addProductSession.php">Products</a>
+			    <a  href = "Process.html">Process</a>
+		    	<a  href = "Reports.php">Reports</a>
+                <a  href = "FAQ.php">FAQ</a>
+                <a  href = "ContactUs.php">Contact us</a>
+				<input type="text" id="searchItem" placeholder="Search" style =" float:right"  >
+                <ul id="resultItems"></ul>
+            </div>	
+        <hr>  
+
+            
+            
+            <div class="container">
+                <div class="card" id="item1">
+                    <img src="images/skirt1.jpg" alt="skirt" id="cimg">
+                    <div class="title">Skirt</div>
+                    <div>
+                        <label>Size : </label>
+                        <select >
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                            <option>32</option>
+                            <option>33</option>
+                            <option>34</option>
+
+                        </select><br><br>
+                        
+                       
+                    </div>
+
+                    <div>
+                        <label>Quantity : </label>
+                        <select name="selec">
+                            <option>500</option>
+                            <option>1000</option>
+                            <option>1500</option>
+                            <option>2000</option>
+                            <option>2500</option>
+                            <option>3000</option>
+                            <option>4000</option>
+                        </select>
+                        <br>
+                       
+
+
+                    </div><br>
+                    LKR<div class="title1">1500</div>
+                    <button onclick="addtocart(item1)">Add To Cart</button>
+                    <button onclick="placeorder()">Order now</button>
+                    
+                   
+                </div>
+
+                <div class="card" id="item2">
+                    <img src="images/blouse4.jpg" alt="skirt" id="cimg">
+                    <div class="title">Blouse</div>
+                    <div>
+                        <label>Size : </label>
+                        <select>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                            <option>32</option>
+                            <option>33</option>
+                            <option>34</option>
+
+                        </select><br><br>
+                        
+                    </div>
+
+                    <div>
+                        <label>Quantity : </label>
+                        <select name="selec">
+                            <option>500</option>
+                            <option>1000</option>
+                            <option>1500</option>
+                            <option>2000</option>
+                            <option>2500</option>
+                            <option>3000</option>
+                            <option>4000</option>
+                        </select>
+                        <br>
+                        
+
+
+                    </div><br>
+                    LKR<div class="title1">800</div>
+                    <button onclick="addtocart(item2)">Add To Cart</button>
+                    <button onclick="placeorder()">Order now</button>
+                    
+               
+                </div>
+
+                <div class="card" id="item3">
+                    <img src="images/shirt.jpg" alt="skirt" id="cimg">
+                    <div class="title">Shirt</div>
+                    <div>
+                        <label>Size : </label>
+                        <select>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                            <option>32</option>
+                            <option>33</option>
+                            <option>34</option>
+
+                        </select><br><br>
+                       
+                        
+                    </div>
+
+                    <div>
+                        <label>Quantity : </label>
+                        <select name="selec">
+                            <option>500</option>
+                            <option>1000</option>
+                            <option>1500</option>
+                            <option>2000</option>
+                            <option>2500</option>
+                            <option>3000</option>
+                            <option>4000</option>
+                        </select>
+                        <br>
+                       
+
+
+                    </div><br>
+                    LKR<div class="title1">1200</div>
+                    
+                    <button onclick="addtocart(item3)">Add To Cart</button>
+                    <button onclick="placeorder()">Order now</button>
+                </div>
+            </div>
+
+            <div class="container1">
+                <div class="card" id="item4">
+                    <img src="images/acc4.jpg" alt="skirt" id="cimg">
+                    <div class="title">Shoes</div>
+                    <div>
+                        <label>Size : </label>
+                        <select>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                            <option>32</option>
+                            <option>33</option>
+                            <option>34</option>
+
+                        </select><br><br>
+                        
+                    </div>
+
+                    <div><br>
+                        <label>Quantity : </label>
+                        <select name="selec">
+                            <option>500</option>
+                            <option>1000</option>
+                            <option>1500</option>
+                            <option>2000</option>
+                            <option>2500</option>
+                            <option>3000</option>
+                            <option>4000</option>
+                        </select>
+                        <br>
+                       
+
+                    </div><br>
+                    LKR<div class="title1">2500</div>
+                    <button onclick="addtocart(item4)">Add To Cart</button>
+                    <button onclick="placeorder()">Order now</button>
+                    
+                </div>
+
+                <div class="card" id="item5">
+                    <img src="images/men1.jpg" alt="skirt" id="cimg">
+                    <div class="title">Red Shirt</div>
+                   
+                    <div>
+                        <label>Size : </label>
+                        <select>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                            <option>32</option>
+                            <option>33</option>
+                            <option>34</option>
+
+                        </select><br><br>
+                        
+                        
+                       
+                    </div>
+                   
+
+                    <div>
+                        <label>Quantity : </label>
+                        <select name="selec">
+                            <option>500</option>
+                            <option>1000</option>
+                            <option>1500</option>
+                            <option>2000</option>
+                            <option>2500</option>
+                            <option>3000</option>
+                            <option>4000</option>
+                        </select>
+                        <br>
+                        
+
+
+                    </div><br>
+                    LKR<div class="title1">1000</div>
+                    <button onclick="addtocart(item5)">Add To Cart</button>
+                    <button onclick="placeorder()">Order now</button>
+                    
+                </div>
+
+                <div class="card" id="item6">
+                    <img src="images/men2.jpg" alt="skirt" id="cimg">
+                    <div class="title">Ocean-Blue Shirt</div>
+                    <div>
+                        <label>Size : </label>
+                        <select>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                            <option>32</option>
+                            <option>33</option>
+                            <option>34</option>
+
+                        </select><br><br>
+                        
+                    </div>
+
+                    <div>
+                        <label>Quantity : </label>
+                        <select name="selec">
+                            <option>500</option>
+                            <option>1000</option>
+                            <option>1500</option>
+                            <option>2000</option>
+                            <option>2500</option>
+                            <option>3000</option>
+                            <option>4000</option>
+                        </select>
+                        <br>
+                       
+
+
+                    </div><br>
+                    LKR<div class="title1">1800</div>
+                    <button onclick="addtocart(item6)">Add To Cart</button>
+                    <button onclick="placeorder()">Order now</button>
+                    
+                </div>
+            </div>
+
+
+            <div class="cart" id="cart">
+                <div class="tittle"><img src="images/shopping-cart - Copy.png" alt="cart" align="middle" height="60px" width="60px"></div><hr>
+                <div id="nimg"></div>
+                <div id="title"></div>
+                <b id="total"></b>
+
+            </div>
+<br>
+            
+            <div class="form-box"><hr>
+                <h1>Place Order</h1><hr>
+                <form  action="insertOrders.php" method="POST">
+                        <div class="form-imputs">
+
+                            <div class="feilds">
+                                 
+                                <label for="pname" onclick="genarateID()">Order ID:</label>
+                                <input type="text" name="feild0" id="order" required><br>
+
+                                <script>
+                                     function genarateID()
+                                     {
+                                        var randomNumber = Math.floor(Math.random() * 5000); // Generates a random number between 0 and 1999
+                                        document.getElementById("order").value =  "ID " +randomNumber ;
+                                     }
+                                </script>
+                               
+ 
+      
+                             </div>
+     
+                            <div class="feilds">
+                                 
+                               <label for="pname">Product Name:</label>
+                               <input type="text" name="feild1" id="pname"><br>
+                              
+
+     
+                            </div>
+     
+                            <div class="feilds">
+                             
+                                 <label for="size">Size:</label>
+                                 <input type="text" name="feild2" id="size"><br>
+                              
+                              
+                              
+                             
+                             </div>
+     
+                             <div class="feilds">
+                                                                   
+                                <label for="qun">Quantity:</label>
+                                <input type="text" name="feild3" id="qun"><br>
+                                  
+                                  
+                                  
+                                  
+                                 
+                            </div>
+     
+
+
+                            
+
+                            <div class="feilds">
+                               
+                               <label for="price">Price:</label>
+                               <input type="text" name="feild4" id="price"><br>
+                             
+                              </div>
+
+                              <hr>
+                              <h4><b>customer Details</b></h4>
+                              <hr>
+     
+                             <div class="feilds">
+                                
+                                    <label for="Cname">customer Name:</label>
+                                    <input type="text" name="feild5" value="" id="Cname"><br>
+                         
+                              </div>
+
+                              <div class="feilds">
+                                
+                                  <label for="num">Number:</label>
+                                  <input type="text" name="feild6" value="" id="num" ><br>
+                                  
+                        
+                             </div>
+
+                             <hr>
+                              <h4><b>Payment Details</b></h4>
+                              <hr>
+
+                             <div class="feilds">
+                                
+                                     <label for="tprice">Total Price:</label>
+                                     <input type="text" name="feild7" value="" id="totalprice"><br>
+                        
+                             </div>
+
+                             <div class="feilds">
+                                
+                                <label for="pay">Payment Method:</label>
+                                <select name="feild8">
+                                    <option>Card</option>
+                                    <option>Cash</option>
+                                  
+                                </select><br>
+                   
+                             </div>
+                               
+                              
+     
+                              
+     
+                            <hr> <br>
+                            <div class="btn">
+                                <button type="submit" value="insert data" id="addbtn"> Place Order </button>
+                                
+                                
+                                </div>
+
+                               
+                            
+                        </div> 
+                    </form>
+                    <a href="ViewOrders.php"><button>View Orders</button></a>
+
+                </div> 
+
+            
+        </body>
+
+        <!-- <footer>
+            <div class="row">
+                <div class="col-1">
+
+                        <img src="images/logo.png" alt="logo" class="logo-1">
+    
+                </div> -->
+                <div class="footer-cont">
+                    <div class="flex">
+                        <div class="inline">
+                        <b> <h3>CATEGORIES</h3></b>
+                        <p>Men's wear</p>
+                        <p>Women's wear</p>
+                        <p>Kids wear</p>
+                        <p>Accessories</p>
+                        </div>
+                    
+                    <div class="inline">
+                    <b><h3>OPENING HOURS</h3></b>
+                    <p> Open Everyday</p>
+                    <p>9.00 AM- 6.00 PM</p>
+                    <p> Contact Us <p> 
+                    071 - 762800200
+                    </div>
+                    
+                    <div class="inline">
+                    <b><h3> INFORMATION </h3></b>
+                    <a href = "FAQ.php"> <p> FAQ's </p></a>
+                    <a href="ContactUs.php"><p> Contact us </p></a>
+                    <a href="PnP-1.html"><p>Privacy Policy</p></a>
+                    <a href="TandC.html"><p>Terms & Conditions</p></a>
+                    </div>
+                    
+                    
+                    </div>
+                    </div>
+    
+    
+        </body>
+        
+    </html>
+      
+
+</html>
+

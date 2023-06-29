@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Edit Supplier Details  </title>
+<link rel="stylesheet" href="tac.css">
+<link rel="stylesheet" href="ES.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body >
+    <h1>
+        <div class = "new">
+            <a href="logout.php">Log out </a>
+            </div>
+    </h1>
+    <h2>
+        <b>FABRICS TEXTILE AND GARMENTS</b>
+        <img src = "fabricsLogo.jpg" alt="Logo"  style="height:90%; width:10%; float:left; position: relative;top: -20%px; bottom:100%;"></a>
+        <a  href = "login.php"><img src = "log.png" alt="Logo" align="middle"  height = "15%" width ="10%" style = float:right></a>
+        
+    </h2>
+    
+    <hr>               
+    <div class = "navbar">
+        <a class ="active" href ="home.php">Home</a>
+        
+        <a href = "order_now.html">Order now</a>
+        <a  href = "EdidSupNew.html">Suppliers</a>
+        <a  href = "addProductSession.php">Products</a>
+        <a  href = "Process.html">Process</a>
+        <a  href = "Reports.php">Reports</a>
+        <a  href = "FAQ.php">FAQ</a>
+        <a  href = "ContactUs.php">Contact us</a>
+        <input type="text" id="searchItem" placeholder="Search" style =" float:right"  >
+        <ul id="resultItems"></ul>
+    </div>	
+<hr> 
+			
+
+<div class="forms formbgcolor">
+<form action="suppliers1.php" method="POST">
+
+ <div  class="row">
+  
+  
+ <!-- <button style="background-color:green;" type="button" onclick="alert('View Supplier Details')"><b>View Supplier Details</b></button> -->
+   <!-- <button style="background-color:green;" type="button" onclick="alert('Edit Supplier Details')"><b>Edit Supplier Details</b></button>
+    <button style="background-color:green;" type="button" onclick="alert('Add Supplier')"><b>Add Supplier</button>  -->
+	
+	
+	
+  
+  </div>
+  
+  <div class="col">
+
+
+ 
+  <label for="suppname">Supplier Name:</label><br>
+  <input type="text" id="suppname" name="suppname" ><br>
+  
+  <label for="email">E-mail:</label><br>
+  <input type="text" id="email" name="email"><br>
+  
+   <label for="company">Company:</label><br>
+  <input type="text" id="company" name="company"><br>
+   
+   <label for="phone">Phone:</label><br>
+  <input type="text" id="phone" name="phone"><br><br>
+  
+   
+  </div>
+  
+  
+  
+  <input type="submit" value="Submit" name="submit"></h1>
+  
+ 
+ </form> 
+</div>
+<div class="footer-cont">
+    <div class="flex">
+        <div class="inline">
+        <b> <h3>CATEGORIES</h3></b>
+        <p>Men's wear</p>
+        <p>Women's wear</p>
+        <p>Kids wear</p>
+        <p>Accessories</p>
+        </div>
+    
+    <div class="inline">
+    <b><h3>OPENING HOURS</h3></b>
+    <p> Open Everyday</p>
+    <p>9.00 AM- 6.00 PM</p>
+    <p> Contact Us <p> 
+    071 - 762800200
+    </div>
+    
+    <div class="inline">
+    <b><h3> INFORMATION </h3></b>
+    <a href = "FAQ.php"> <p> FAQ's </p></a>
+    <a href="ContactUs.php"><p> Contact us </p></a>
+    <a href="PnP-1.html"><p>Privacy Policy</p></a>
+    <a href="TandC.html"><p>Terms & Conditions</p></a>
+    </div>
+    
+    
+    </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+/* Global Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Body Styles */
+  body {
+    background-color: #020757;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Heading Styles */
+  h1 {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: -3px 3px 18px #000000;
+    font-size: 2.5em;
+    padding: 30px 5px 5px;
+  }
+  
+  /* Top Styles */
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: linear-gradient(to right, #020757, #06013a);
+    padding: 10px;
+  }
+  
+  .top a {
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.7s;
+  }
+  
+  .top a:hover {
+    background-color: #f44336;
+    color: #000000;
+    border-radius: 8px;
+  }
+  
+  .top a.active {
+    background-color: #f44336;
+    color: #000000;
+    border-radius: 8px;
+  }
+  
+  /* Search Bar Styles */
+  .srhbar {
+    background: #dddddd;
+    border-radius: 10px;
+    height: 50px;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .srhbar input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  /* Container Styles */
+  .container {
+    position: relative;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .container input {
+    border: 1px solid black;
+    background: #cecccc;
+    padding: 10px;
+  }
+  
+  /* Card Styles */
+  .card {
+    border: 1px solid black;
+    background: #dddddd;
+    opacity: 0.85;
+    border-radius: 20px;
+    width: max-content;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: 0.7s;
+  }
+  
+  .card img {
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .title {
+    font-weight: bold;
+    margin: 20px;
+  }
+  
+  /* Button Styles */
+  button {
+    border: none;
+    background-color: #f44336;
+    color: #dddddd;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 10px;
+    transition: 0.5s;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    color: #020757;
+  }
+  
+  /* Cart Styles */
+  .cart {
+    width: 350px;
+    height: 1000px;
+    float: right;
+    text-align: center;
+    background: #dddddd;
+    overflow-y: scroll;
+    margin: 20px;
+    border-radius: 20px;
+    opacity: 0.85;
+  }
+  
+  /* Footer

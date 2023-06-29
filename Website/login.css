@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("bg8.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+
+}
+
+
+.loginbox {
+	 width: 320px;
+	height: 500px; 
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+input[type="text"] {
+	width: 60%;
+	height: -10%;
+  } 
+
+  .loginbox form p {
+    margin-bottom: 5px;
+  }
+
+h1{
+	text-align:center;
+}
+p{
+	text-align:center;
+	padding-right:10%;
+}
+
+form{
+	text-align:center;
+}
+.avatar{
+	width:100px;
+	height:100px;
+	/* position:absolute; */
+	/* top:5px; */
+	padding-left:30%;
+
+}

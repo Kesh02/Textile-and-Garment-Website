@@ -1,0 +1,316 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+
+
+body
+  {
+      background-image: url("bg11.png");
+      
+   
+      /*background-attachment: fixed;*/
+      background-repeat:no-repeat;
+	  background-size:100% 100%;
+	  /*backdrop-filter:blur(5px);*/
+      background-attachment: fixed;
+    background-size: cover;
+    position: relative; 
+      
+  }
+  
+  .new{
+      overflow:hidden;
+      background-color:#333;
+  }
+  
+  .new a {
+      float:right;
+      color:  #f2f2f2;
+      padding: 10px 20px;
+      font-size:15px;
+	  text-decoration:none;
+      
+  }
+      
+  h2{
+      color: black;
+      font-size:2.5em;
+      font-family: sans-serif;
+      text-align:center;
+      font-weight: bold;
+      text-shadow: -3px 3px 18px #000000;
+      
+  }
+  
+  /* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+  border-radius:8px;
+  /*position:fixed;*/
+}
+
+/* Navbar links */
+.navbar a {
+    float: left;
+    padding: 14px 25px 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+  }
+  
+  .navbar
+  {
+      overflow:hidden;
+      background-color:black;
+	  height: 50px;
+          
+  }
+  
+  .naw a 
+  {
+      float: left;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 10px 17px;
+      text-decoration:none;
+      font-size:20px;
+      
+  }
+  
+  .navbar a:hover {
+        background-color:white;
+        color: black;
+       
+        border-radius: 8px;
+      }
+      
+  .navbar a.active{
+      background-color: red;
+      border-radius: 8px;
+  
+  }
+   .navbar input{
+       float:right;
+       color:  #f2f2f2;
+       padding: 10px 17px;
+       font-size:20px;
+       color: hsl(2, 4%, 4%);
+   }
+
+   
+
+   .form-box{
+
+    width: 90%;
+    max-width: 550px;
+    position: absolute;
+    left: 33%;
+    top:38%;
+    
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow:  -3px 3px 20px #646464;
+    opacity: 0.85;
+}
+
+.form-box h1{
+
+    height: 100px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(12, 12, 136);
+    position: relative;
+    
+}
+
+.feilds{
+
+    background: #dddddd;;
+    margin: 15px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    overflow: hidden;
+   
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px 18px;
+    
+
+}
+
+input.file-upload{
+
+    color: #999;
+    
+}
+
+.picture img{
+    width: 200px;
+    margin: 15px auto;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: -3px 3px 20px #646464 ;
+}
+
+label{
+    display: block;
+    width: 200px;
+    background: rgb(12, 12, 136);
+    color: #ffffff;
+    position: relative;
+    padding: 15px 18px;
+    margin: 15px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s;
+
+
+}
+
+input.file-upload{
+
+    display: none;
+    
+}
+
+label:hover{
+    background: #f44336;
+    
+}
+
+.btn{
+    width: 100px;
+    display: flex;
+    position: relative;
+    margin: 15px auto;
+    
+    
+}
+
+.btn button{
+
+    flex-basis: 100%;
+    background: rgb(12, 12, 136);
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    box-shadow: -3px 3px 20px #646464;
+    transition: 0.7s;
+    
+
+}
+
+.btn button:hover{
+    background:   #f44336;
+}
+
+.select 
+{
+    text-align: center;
+    
+
+
+}
+
+.select button
+{
+   
+    background: transparent;
+    color: #000000;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    outline: 0;
+    padding: 10px 10px 10px;
+    border: 0.5;
+    border-color: #ffffff;
+    transition: 0.7s;
+    
+}
+
+.select button:hover
+{
+    background: #f44336;
+    width: 200px;
+    border-color:#f44336 ;
+    transition: 0.7s;
+}
+
+.select button:hover::after
+{
+    
+    width: 150px;
+    transition: 0.7s;
+
+}
+
+.select button.active
+{
+    background: #f44336;
+    border-color: #f44336;
+}
+
+
+footer
+{
+    width: 100%;
+    position: absolute;
+    bottom: -60%;
+    padding: 0 0 0px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.footer-cont{
+	display:flex;
+	background-color:white;
+	height:180px;
+	width:100%;
+	font-size:13px;
+	margin-top:90px;
+	padding:20px;
+	top: 500%;
+	opacity:80%;
+	
+	
+}
+.flex{
+	display:flex;
+	flex-direction:row;
+}
+
+.inline{
+	margin:10px 150px;
+	display:inline-block;
+}
+
+.inline p{
+	font-size:15px;
+	
+}
+
+.inline a{
+text-decoration:none;
+}

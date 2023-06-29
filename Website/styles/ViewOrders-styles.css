@@ -1,0 +1,286 @@
+
+
+body, html
+{
+    height: 140%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+body 
+{
+    background-image: url(file:///C:/Users/rashm/OneDrive/Documents/HTML/Add%20Product/src/images/background.png);
+    background-color:#ffffff ;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+h1
+{
+    text-align: center;
+    color: aliceblue;
+    text-shadow:  -3px 3px 18px #000000;
+    font-size: 2.5em;
+    padding: 30px 5px 5px;
+}
+
+.top
+{
+    
+    align-items: center;
+    background: linear-gradient(to right,#020757, #06013a );
+
+   
+}
+
+.top a
+{
+
+    padding: 10px 10px 10px;
+    text-decoration: none;
+    float: right;
+    color: aliceblue;
+    width: 80px;
+    text-align: center;
+    transition: 0.7s;
+}
+
+.top a:hover
+{
+   background-color: #f44336;
+   color: #000000;
+   border-radius: 8px;
+   width: 120px;
+   transition: 0.7s;
+
+}
+
+.top a:hover::after
+{
+    width: 80px;
+    transition: 0.7s;
+
+}
+
+.top a.active
+{
+    background-color: #f44336;
+   color: #000000;
+   border-radius: 8px;
+}
+
+.srhbar
+{
+    background: #dddddd;
+    border-radius: 10px;
+    height: 50px;
+    width: 550px;
+    margin: 0 35.5%;
+    
+    
+   
+}
+
+
+
+input
+{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px 18px;
+    
+    
+}
+
+
+
+
+
+
+
+.select 
+{
+    text-align: center;
+    
+
+
+}
+
+.select button
+{
+   
+    background: transparent;
+    color: #ffffff;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    outline: 0;
+    padding: 10px 10px 10px;
+    border: 0.5;
+    border-color: #ffffff;
+    transition: 0.7s;
+    
+}
+
+.select button:hover
+{
+    background: #f44336;
+    width: 200px;
+    border-color:#f44336 ;
+    transition: 0.7s;
+}
+
+.select button:hover::after
+{
+    
+    width: 150px;
+    transition: 0.7s;
+
+}
+
+.select button.active
+{
+    background: #f44336;
+    border-color: #f44336;
+}
+
+.card-body
+{
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    padding: 30px 55px;
+    
+}
+
+table{
+
+    width: 55rem;
+	top: 50%;
+    left: 50%;
+}
+
+table thead{
+	
+	height:50px;
+	background-color: #020757;
+    color: #dddddd;
+	font-size:15px;
+    text-align: center;
+}
+
+table button
+{
+    background-color: #f44336;
+    color: #ffffff;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    outline: 0;
+    padding: 10px 10px 10px;
+    border: transparent;
+    transition: 0.7s;
+}
+
+footer
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right,#06013a,#020757 );
+    color: #fff;
+    padding: 0 0 0px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.row
+{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center;
+    padding: 10px 100px ;
+}
+
+.logo-1
+{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 50px;
+    padding: 10px 70px ;
+}
+
+.col-2
+{
+    padding: 10px 70px ;
+}
+.col-2 h3
+{
+    width: fit-content;
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+
+.col-3 h4
+{
+    width: fit-content;
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+
+.col-3
+{
+    padding: 10px 70px ;
+}
+
+
+.col-4 h5
+{
+    width: fit-content;
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+
+.col-4
+{
+    padding: 10px 70px ;
+}
+
+.col-5 h5
+{
+    width: fit-content;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.col-5
+{
+    padding: 10px 70px ;
+    float: right;
+}
+
+.logo-2
+{
+    width: 140px;
+    height: 100px;
+    margin-bottom: 50px;
+    
+}
+.parah
+{
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+}
+
